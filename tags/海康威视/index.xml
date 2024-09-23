@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>海康威视 on Tecorey的博客</title><link>https://tecocw.github.io/tags/%E6%B5%B7%E5%BA%B7%E5%A8%81%E8%A7%86/</link><description>Recent content in 海康威视 on Tecorey的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 23 Sep 2024 16:18:31 +0800</lastBuildDate><atom:link href="https://tecocw.github.io/tags/%E6%B5%B7%E5%BA%B7%E5%A8%81%E8%A7%86/index.xml" rel="self" type="application/rss+xml"/><item><title>海康威视摄像头线序</title><link>https://tecocw.github.io/p/%E6%B5%B7%E5%BA%B7%E5%A8%81%E8%A7%86%E6%91%84%E5%83%8F%E5%A4%B4%E7%BA%BF%E5%BA%8F/</link><pubDate>Mon, 23 Sep 2024 16:18:31 +0800</pubDate><guid>https://tecocw.github.io/p/%E6%B5%B7%E5%BA%B7%E5%A8%81%E8%A7%86%E6%91%84%E5%83%8F%E5%A4%B4%E7%BA%BF%E5%BA%8F/</guid><description>&lt;p>上班的时候提示有个摄像头坏了，网线网络Ping不通，网口已经Down掉了，后来拔下摄像头，发现摄像头尾线的水晶头母座被腐蚀了。而且正好腐蚀的是6号线，干脆直接打了一个水晶头，然后用网线对接的段子接起来用吧。但是海康的线序和普通的568B线序不一样，特此记录一下。&lt;/p>
-&lt;p>&lt;img src="D:%5cDocuments%5cObsidian%5cBlog%5ccontent%5cpost%5c2024%5c09%5c23%5cimage-20240923162655100.png"
+&lt;p>&lt;img src="https://tecocw.github.io/p/%E6%B5%B7%E5%BA%B7%E5%A8%81%E8%A7%86%E6%91%84%E5%83%8F%E5%A4%B4%E7%BA%BF%E5%BA%8F/image-20240923162655100.png"
+width="338"
+height="165"
+srcset="https://tecocw.github.io/p/%E6%B5%B7%E5%BA%B7%E5%A8%81%E8%A7%86%E6%91%84%E5%83%8F%E5%A4%B4%E7%BA%BF%E5%BA%8F/image-20240923162655100_hu3451726163263418898.png 480w, https://tecocw.github.io/p/%E6%B5%B7%E5%BA%B7%E5%A8%81%E8%A7%86%E6%91%84%E5%83%8F%E5%A4%B4%E7%BA%BF%E5%BA%8F/image-20240923162655100_hu8444285149964667253.png 1024w"
 loading="lazy"
 alt="image-20240923162655100"
+class="gallery-image"
+data-flex-grow="204"
+data-flex-basis="491px"
 >&lt;/p>
 &lt;table>
 &lt;thead>
