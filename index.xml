@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tecorey的博客</title><link>https://tecocw.github.io/</link><description>Recent content on Tecorey的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 05 Sep 2024 15:54:22 +0800</lastBuildDate><atom:link href="https://tecocw.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo Github Pages 自建博客教程</title><link>https://tecocw.github.io/p/hugo-github-pages-%E8%87%AA%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/</link><pubDate>Thu, 05 Sep 2024 15:54:22 +0800</pubDate><guid>https://tecocw.github.io/p/hugo-github-pages-%E8%87%AA%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/</guid><description>&lt;h2 id="前言">前言
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tecorey的博客</title><link>https://tecocw.github.io/</link><description>Recent content on Tecorey的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 23 Sep 2024 16:18:31 +0800</lastBuildDate><atom:link href="https://tecocw.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>海康威视摄像头线序</title><link>https://tecocw.github.io/p/%E6%B5%B7%E5%BA%B7%E5%A8%81%E8%A7%86%E6%91%84%E5%83%8F%E5%A4%B4%E7%BA%BF%E5%BA%8F/</link><pubDate>Mon, 23 Sep 2024 16:18:31 +0800</pubDate><guid>https://tecocw.github.io/p/%E6%B5%B7%E5%BA%B7%E5%A8%81%E8%A7%86%E6%91%84%E5%83%8F%E5%A4%B4%E7%BA%BF%E5%BA%8F/</guid><description>&lt;p>上班的时候提示有个摄像头坏了，网线网络Ping不通，网口已经Down掉了，后来拔下摄像头，发现摄像头尾线的水晶头母座被腐蚀了。而且正好腐蚀的是6号线，干脆直接打了一个水晶头，然后用网线对接的段子接起来用吧。但是海康的线序和普通的568B线序不一样，特此记录一下。&lt;/p>
+&lt;p>&lt;img src="D:%5cDocuments%5cObsidian%5cBlog%5ccontent%5cpost%5c2024%5c09%5c23%5cimage-20240923162655100.png"
+loading="lazy"
+alt="image-20240923162655100"
+>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">海康&lt;/th>
+&lt;th style="text-align: left">橙&lt;/th>
+&lt;th style="text-align: left">黄&lt;/th>
+&lt;th style="text-align: left">绿&lt;/th>
+&lt;th style="text-align: left">紫&lt;/th>
+&lt;th style="text-align: left">灰&lt;/th>
+&lt;th style="text-align: left">蓝&lt;/th>
+&lt;th style="text-align: left">棕&lt;/th>
+&lt;th style="text-align: left">白&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">T568B&lt;/td>
+&lt;td style="text-align: left">白橙&lt;/td>
+&lt;td style="text-align: left">橙&lt;/td>
+&lt;td style="text-align: left">白绿&lt;/td>
+&lt;td style="text-align: left">蓝&lt;/td>
+&lt;td style="text-align: left">白蓝&lt;/td>
+&lt;td style="text-align: left">绿&lt;/td>
+&lt;td style="text-align: left">白棕&lt;/td>
+&lt;td style="text-align: left">棕&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Hugo Github Pages 自建博客教程</title><link>https://tecocw.github.io/p/hugo-github-pages-%E8%87%AA%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/</link><pubDate>Thu, 05 Sep 2024 15:54:22 +0800</pubDate><guid>https://tecocw.github.io/p/hugo-github-pages-%E8%87%AA%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/</guid><description>&lt;h2 id="前言">前言
 &lt;/h2>&lt;p>自己尝试通过&lt;a class="link" href="https://gohugo.io/" target="_blank" rel="noopener"
 >Hugo&lt;/a>这个静态网站生成器来搭建我的个人博客，踩了很多坑，现在把自己的历程写一下。&lt;/p>
 &lt;p>现在已经实现的是一下几个部分：&lt;/p>
